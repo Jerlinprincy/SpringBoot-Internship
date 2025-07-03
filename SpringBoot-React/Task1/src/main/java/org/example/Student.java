@@ -16,9 +16,9 @@ public class Student {
     }
 
     public void studentDetails(){
-        System.out.println("Name : " + "praveen");
+        System.out.println("Name : " + "jerlin");
         System.out.println("Age : " + "18" );
-        System.out.println("Email : " + "praveen901471@gmail.com");
+        System.out.println("Email : " + "jerlinprincyf@gmail.com");
         System.out.println();
     }
 }
