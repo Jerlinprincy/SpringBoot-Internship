@@ -12,7 +12,7 @@ import java.util.List;
 public class StudentService {
 
     List<Student> studentDetails = new ArrayList<>(
-            Arrays.asList(new Student("praveen", 20, "23AD102", "9014718812"), new Student("sanjay", 19, "23AD121", "8984739490"))
+            Arrays.asList(new Student("Jerlin", 20, "23CB021", "9014718812"), new Student("Nithya", 19, "23CB038", "8984739490"))
     );
 
     public List<Student> getStudentDetails(){
@@ -20,7 +20,7 @@ public class StudentService {
     }
 
     public String studentName(){
-        return "Student name is : Praveen";
+        return "Student name is : Jerlin";
     }
 
     public String studentAge(){
