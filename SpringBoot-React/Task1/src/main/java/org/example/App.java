@@ -13,7 +13,7 @@ public class App
         Student s1 = (Student) context.getBean("student");
 
         s1.TotalStudents();
-        s1.EnterStudentDetails("praveen", "praveen901471@gmail.com", 20);
+        s1.EnterStudentDetails("jerlin", "jerlinprincyf@gmail.com", 20);
         s1.studentDetails();
 
         Parent p1 = (Parent) context.getBean("parent");
